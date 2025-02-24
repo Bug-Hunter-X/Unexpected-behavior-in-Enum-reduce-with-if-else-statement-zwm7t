@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in Elixir related to the `Enum.reduce` function. The bug occurs when using an `if-else` statement within the reducer function without properly handling the accumulator in the `else` branch.  The provided example shows how this can lead to unexpected results and demonstrates a correct solution.
